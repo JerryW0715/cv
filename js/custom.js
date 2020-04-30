@@ -450,7 +450,7 @@ $(document).ready(function () {
 
     $(".submit-btn").click(function (event) {
         
-        event.preventDefault()//prevent the default action of the btn if the type is submit
+        //event.preventDefault()//prevent the default action of the btn if the type is submit
         
     })
 })
