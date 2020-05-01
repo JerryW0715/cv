@@ -269,10 +269,10 @@ $(document).ready(function() {
                 break;
 
             case "#music":
-                document.getElementById("picture-1").src = "images/music1.jpg";
-                document.getElementById("picture-2").src = "images/music2.jpg";
-                document.getElementById("picture-3").src = "images/music3.jpg";
-                document.getElementById("picture-4").src = "images/music4.JPG";
+                document.getElementById("picture-1").src = "images/music4.jpg";
+                document.getElementById("picture-2").src = "images/music1.jpg";
+                document.getElementById("picture-3").src = "images/music2.jpg";
+                document.getElementById("picture-4").src = "images/music3.JPG";
                 break;
         }
 
