@@ -218,7 +218,8 @@ p {
     padding-top: 8px;
     padding-left: 8px;
     padding-right: 8px;
-    font-family: 'Paytone One',sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
 }
 
 nav ul{
@@ -235,44 +236,46 @@ nav ul li a:hover {
     opacity: 0.7;
 }
 
-nav ul li a.ticketdispenser {
-    border-left: 50px solid #c9182da9;
-    color: #c9182da9;
+nav ul li a.capstone {
+    border-left: 50px solid #01010a;
+    color: #01010a;
 }
 
 nav ul li a.chromacloak {
-    border-left: 50px solid #1879c99a;
-    color: #1879c99a;
+    border-left: 50px solid #0d2572da;
+    color: #0d2572da;
 }
 
 nav ul li a.weatherbox {
-    border-left: 50px solid #18c97088;
-    color: #18c97088;
+    border-left: 50px solid #153f99da;
+    color: #155399da;
 }
 
-nav ul li a.capstone {
-    border-left: 50px solid #94c9186c;
-    color: #94c9186c;
+
+nav ul li a.ticketdispenser {
+    border-left: 50px solid #1f41adda;
+    color: #1f41adda;
 }
+
 
 nav ul li a.handshield {
-    border-left: 50px solid #c9188e86;
-    color: #c9188e86;
+    border-left: 50px solid #497cdaf1;
+    color: #497cdaf1;
 }
 
 nav ul li a.handchaser {
-    border-left: 50px solid #e0f80579;
-    color: #e0f80579;
+    border-left: 50px solid #6ca2e9;
+    color: #6ca2e9;
 }
 
 nav ul li a.website {
-    border-left: 50px solid #dd8cd275;
-    color: #dd8cd275;
+    border-left: 50px solid #93c3e4;
+    color: #93c3e4;
 }
 
 nav ul li a.music {
-    border-left: 50px solid #0a0201;
-    color: #0a0201;
+    border-left: 50px solid #7bc9e7e7;
+    color: #7bc9e7e7;
 }
 
 .project-description {
