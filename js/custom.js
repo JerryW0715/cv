@@ -207,9 +207,9 @@ $(document).ready(function() {
     
     $('.project-list-nav li a').click(function() {
         
-        $('.project-overview').removeClass("wow");
-        $('.project-description').parent().removeClass("wow");
-            new WOW().init(); 
+        //$('.project-overview').removeClass("wow");
+        //$('.project-description').parent().removeClass("wow");
+        //    new WOW().init(); 
     
         $(".project-list-nav li a").parent().removeClass("active");
         var itemName = this.href.substr(this.href.indexOf('#'), this.href.length-1);
@@ -265,7 +265,7 @@ $(document).ready(function() {
 
             case "#handchaser":
                 document.getElementById("picture-1").src = "images/handchaser1.jpg";
-                document.getElementById("picture-2").src = "images/handchaser2.jpg";
+                document.getElementById("picture-2").src = "images/handchaser2.JPG";
                 document.getElementById("picture-3").src = "images/handchaser3.jpg";
                 document.getElementById("picture-4").src = "images/handchaser4.JPG";
                 break;
@@ -274,14 +274,14 @@ $(document).ready(function() {
                 document.getElementById("picture-1").src = "images/website1.JPG";
                 document.getElementById("picture-2").src = "images/website2.JPG";
                 document.getElementById("picture-3").src = "images/website3.JPG";
-                document.getElementById("picture-4").src = "images/Thank-you.jpeg";
+                document.getElementById("picture-4").src = "images/website4.jpg";
                 break;
 
             case "#music":
-                document.getElementById("picture-1").src = "images/music4.jpg";
+                document.getElementById("picture-1").src = "images/music4.JPG";
                 document.getElementById("picture-2").src = "images/music1.jpg";
                 document.getElementById("picture-3").src = "images/music2.jpg";
-                document.getElementById("picture-4").src = "images/music3.JPG";
+                document.getElementById("picture-4").src = "images/music3.jpg";
                 break;
         }
 
