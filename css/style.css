@@ -236,38 +236,38 @@ nav ul li a:hover {
 }
 
 nav ul li a.ticketdispenser {
-    border-left: 50px solid #c9182c;
-    color: #c9182c;
+    border-left: 50px solid #c9182da9;
+    color: #c9182da9;
 }
 
 nav ul li a.chromacloak {
-    border-left: 50px solid #1879c9;
-    color: #1879c9;
+    border-left: 50px solid #1879c99a;
+    color: #1879c99a;
 }
 
 nav ul li a.weatherbox {
-    border-left: 50px solid #18c970;
-    color: #18c970;
+    border-left: 50px solid #18c97088;
+    color: #18c97088;
 }
 
 nav ul li a.capstone {
-    border-left: 50px solid #94c918;
-    color: #94c918;
+    border-left: 50px solid #94c9186c;
+    color: #94c9186c;
 }
 
 nav ul li a.handshield {
-    border-left: 50px solid #c9188e;
-    color: #c9188e;
+    border-left: 50px solid #c9188e86;
+    color: #c9188e86;
 }
 
 nav ul li a.handchaser {
-    border-left: 50px solid #e0f805;
-    color: #e0f805;
+    border-left: 50px solid #e0f80579;
+    color: #e0f80579;
 }
 
 nav ul li a.website {
-    border-left: 50px solid #dd8cd2;
-    color: #dd8cd2;
+    border-left: 50px solid #dd8cd275;
+    color: #dd8cd275;
 }
 
 nav ul li a.music {
