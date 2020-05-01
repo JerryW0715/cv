@@ -124,14 +124,22 @@ p {
     padding-top: 30px;
     text-transform: uppercase;
 }
+
+.header-text h1 span{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
 .header-text p {
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 28px;
     font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .header-btns {
-    margin-top: 90px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -271,33 +279,34 @@ nav ul li a.music {
     background-color: #555;
     width: auto\9;
     min-height: 550px;
+    background-attachment: fixed;
 }
 
+.layer {
+    position: absolute;
+}
 
 
 .project-item {
     display:none;
-    position: absolute;
-    padding-bottom: 4px;
-    padding-left: 20px;
-    max-width: 90%;
+    position: relative;
+    
     
 }
 
 
 
-.project-item div {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 
 .project-item h3 {
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 800;
-    margin-top: 20px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: auto;
 }
 
 .project-item p {
@@ -305,8 +314,15 @@ nav ul li a.music {
     font-size: 18px;
     text-align: justify;
     text-justify: inter-word;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 } 
 
+.project-item audio {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 
 #chromacloak-detail a i {
@@ -505,7 +521,7 @@ nav ul li a.music {
 
 .scroll-top {
     position: relative;
-    left: 90%;
+    
     text-align: right;
 }
 .scroll-top a {
@@ -517,6 +533,19 @@ nav ul li a.music {
     font-size: 25px;
 }
 
+
+#copyright p {
+    text-decoration: none;
+    width: 50%;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#copyright p a{
+    color: #A9ADB0;
+}
 
 
 

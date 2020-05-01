@@ -198,10 +198,19 @@ $(document).ready(function() {
 });
 
 
+function changeImg(picname, pathname){
+    document.getElementById(picname).src = "images/"+pathname;
+}
+
+
 $(document).ready(function() {
     
     $('.project-list-nav li a').click(function() {
         
+        $('.project-overview').removeClass("wow");
+        $('.project-description').parent().removeClass("wow");
+            new WOW().init(); 
+    
         $(".project-list-nav li a").parent().removeClass("active");
         var itemName = this.href.substr(this.href.indexOf('#'), this.href.length-1);
         var key = itemName.substr(0, itemName.indexOf('-'));
@@ -219,18 +228,18 @@ $(document).ready(function() {
 
         switch (key){
             case "#dispenser":
-                document.getElementById("picture-1").src = "images/dispenser2.JPG";
-                document.getElementById("picture-2").src = "images/dispenser4.png";
-                document.getElementById("picture-3").src = "images/dispenser1.JPG";
-                document.getElementById("picture-4").src = "images/dispenser3.JPG";
+                changeImg("picture-1", "dispenser2.JPG");
+                changeImg("picture-2","dispenser4.png");
+                changeImg("picture-3","dispenser1.JPG");
+                changeImg("picture-4","dispenser3.JPG");
                 break;
             
             case "#chromacloak":
                 
-                document.getElementById("picture-1").src = "images/chromacloak4.png";
-                document.getElementById("picture-2").src = "images/chromacloak1.png";
-                document.getElementById("picture-3").src = "images/chromacloak2.png";
-                document.getElementById("picture-4").src = "images/chromacloak3.png";
+                changeImg("picture-1","chromacloak4.png");
+                changeImg("picture-2","chromacloak1.png");
+                changeImg("picture-3","chromacloak2.png");
+                changeImg("picture-4","chromacloak3.png");
                 break;
 
             case "#weatherbox":
@@ -362,7 +371,10 @@ $(document).ready(function() {
 });
 
 
+$(window).on('load', function(){
 
+    new WOW().init(); 
+});
 
 
 // reminders for contact form and submit button
