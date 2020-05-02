@@ -371,10 +371,7 @@ $(document).ready(function() {
 });
 
 
-$(window).on('load', function(){
 
-    new WOW().init(); 
-});
 
 
 // reminders for contact form and submit button
